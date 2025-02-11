@@ -26,5 +26,6 @@ tienda.procesarArticulo(a6);
 tienda.procesarArticulo(a7); 
 tienda.procesarArticulo(a8); 
 
-alert("Ganancia total: $" + tienda.gananciaTotal()); 
-alert("Codigo del articulo con mayor precio: " + tienda.codigoArticuloMayor());
+alert("La ganancia total es: $" + tienda.gananciaTotal())
+alert("El codigo del articulo con mayor precio de venta es: " + tienda.codigoArticuloMayor());
+
