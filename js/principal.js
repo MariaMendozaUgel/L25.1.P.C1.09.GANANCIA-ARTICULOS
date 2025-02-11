@@ -26,6 +26,6 @@ tienda.procesarArticulo(a6);
 tienda.procesarArticulo(a7); 
 tienda.procesarArticulo(a8); 
 
-alert("La ganancia total es: $" + tienda.gananciaTotal())
-alert("El codigo del articulo con mayor precio de venta es: " + tienda.codigoArticuloMayor());
-
+let salida = document.getElementById("salida");
+salida.innerHTML = `GANANCIA TOTAL:$ ${tienda.gananciaTotal()}<br>`;
+salida.innerHTML += `ARTICULO CON MAYOR PRECIO: ${tienda.codigoArticuloMayor()}`;
