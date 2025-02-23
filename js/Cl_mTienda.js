@@ -1,5 +1,5 @@
-import Cl_articulos from "./Cl_articulos.js";
-export default class Cl_tienda {
+import Cl_mArticulos from "./Cl_mArticulos.js";
+export default class Cl_mTienda {
     constructor ()  {
         this.acumCosto = 0;
         this.acumVenta = 0;

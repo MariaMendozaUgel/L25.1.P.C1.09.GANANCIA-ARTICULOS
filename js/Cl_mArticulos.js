@@ -1,5 +1,5 @@
-export default class Cl_articulos {
-    constructor(codigo, costo, precioVenta) {
+export default class Cl_mArticulos {
+    constructor({codigo, costo, precioVenta}) {
         this.codigo = codigo;    
         this.costo = costo;
         this.precioVenta = precioVenta;
